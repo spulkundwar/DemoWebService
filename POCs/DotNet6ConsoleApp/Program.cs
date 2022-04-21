@@ -8,6 +8,7 @@ namespace DotNet6ConsoleApp
         static void Main(string[] args)
         {
             Console.WriteLine($"Program Execution started at {DateTime.Now}");
+            Console.WriteLine($"Update one");
             Random rm = new Random();
             int seconds = rm.Next(2, 10);
             Thread.Sleep(seconds * 1000);
